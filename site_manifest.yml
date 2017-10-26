@@ -1,0 +1,30 @@
+sites:
+  echo:
+    production:
+      deployed_location: "echo"
+      branch: "master"
+      build_directory: "prod"
+    staging:
+      deployed_location: "echo_staging"
+      branch: "staging"
+      build_directory: "staging"      
+
+  edge:
+    production:
+      deployed_location: "edge"
+      branch: "master"
+      build_directory: "prod"
+    staging:
+      deployed_location: "edge_staging"
+      branch: "staging"
+      build_directory: "staging"
+
+  voltron:
+    production:
+      deployed_location: "voltron"
+      branch: "master"
+      build_directory: "prod"
+    staging:
+      deployed_location: "voltron_staging"
+      branch: "STAGING"
+      build_directory: "dist"
